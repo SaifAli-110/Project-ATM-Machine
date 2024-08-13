@@ -60,6 +60,17 @@ public class ATM {
         Scanner sc = new Scanner(System.in);
         ATM atm = new ATM(1000);
 
+        int pin = 4628;
+        System.out.println("Please Enter your pin : ");
+        int EnterPin = sc.nextInt();
+
+        if (EnterPin != pin){
+            System.out.println("Incorrect pin Please try again....");
+            System.exit(0);
+        }else {
+            System.out.println("Welcome to SBI Bank..!\n");
+        }
+
         while (true){
             System.out.println("1. Check Balance");
             System.out.println("2. Deposit");
