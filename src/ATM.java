@@ -45,7 +45,7 @@ public class ATM {
         System.out.println("\t\t" + Date + "  " + Time);
 
         System.out.println("\n----------------------------------------------------");
-        System.out.println("***************  Welcome To SBI Bank  **************");
+        System.out.println("***************| Welcome To SBI Bank |**************");
         System.out.println("----------------------------------------------------");
         System.out.println("\nWelcome! Please insert your card do not remove your card yet.....!");
         try {
